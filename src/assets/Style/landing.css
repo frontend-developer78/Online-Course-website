@@ -1,0 +1,62 @@
+.land-page-section {
+  background-image: url("../img/back-school-doodle-sketch-pattern.png");
+  background-position: center;
+  background-size: cover;
+}
+.land-page-section .container .land-content-section {
+  padding-top: 100px;
+}
+.land-page-section .container .land-content-section p {
+  color: orangered;
+  letter-spacing: 4px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.land-page-section .container .land-content-section h2 {
+  font-weight: 900;
+  font-size: 72px;
+  text-shadow: 7px 7px 17px rgba(70, 70, 70, 0.38);
+}
+.land-page-section .container .land-content-section span {
+  font-size: 14px;
+  color: #8a8a8a;
+}
+.land-page-section .container .land-content-section .search-category-landpage {
+  border-radius: 30px;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.11);
+}
+.land-page-section .container .land-content-section .search-category-landpage button {
+  border-width: 0;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: 700;
+  color: #383838;
+}
+.land-page-section .container .land-content-section .search-category-landpage input {
+  outline: 0;
+  border-width: 0;
+  font-size: 15px;
+  color: #383838;
+}
+.land-page-section .container .land-content-section .search-category-landpage .dropdown button.dropdown-toggle {
+  border-left: 1px solid #979797;
+}
+.land-page-section .container .land-content-section .search-category-landpage .dropdown button.dropdown-toggle:focus {
+  box-shadow: none;
+  outline: none;
+}
+.land-page-section .container .land-content-section .search-category-landpage .search-category-landing {
+  border-radius: 20px;
+  background-color: orangered;
+  padding: 7px 24px;
+  color: #fff;
+  transition: all 0.4s ease;
+  font-size: 17px;
+}
+.land-page-section .container .land-content-section .search-category-landpage .search-category-landing:focus {
+  outline: none;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.11);
+}/*# sourceMappingURL=landing.css.map */

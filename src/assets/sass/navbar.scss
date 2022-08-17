@@ -1,0 +1,398 @@
+// ---------------- Start Navabr section ----------------
+$bg-nav: #fff;
+$link-color: #5f5f5f;
+$link-hover-color:rgb(255, 59, 59);
+$font-size:14px;
+$radius: 15px;
+$padding: 8px;
+$transition: all 0.4s ease;
+$btn-color: rgb(1, 70, 66);
+$shadow: 0px 4px 30px rgba(0, 0, 0, 0.11);
+header.header-container{
+    border-bottom: 1px dashed #efefef;
+    .header-content{
+        p{
+            color: #5102b9;
+            font: {
+                weight: 700;
+                size:$font-size;
+                family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+        }
+    }
+    .header-btn-container{
+        button.btn-log,
+        button.btn-favorite{
+            border: {
+                style: solid;
+                width: 1px;
+                color:#efefef;
+                radius: 8px;
+            }
+            outline: none;
+            background-color: transparent;
+            padding: 3px 6px;
+            font-size: $font-size;
+            color: #747474;
+            overflow: hidden;
+            transition: $transition;
+            img{
+                transition: $transition;
+            }
+            &:hover{
+                box-shadow: 0 0 8px rgba(0, 0, 0, 0.11);
+                img{
+                    transform: translateX(22px);
+                }
+            }
+        }
+        .custom-modal{
+            .modal-dialog{
+                .modal-content{
+                    border: {
+                        width: 0;
+                        radius:$radius;
+                    }
+                    overflow: hidden;
+                    padding: 30px;
+                    .sign-up-section{
+                        .sign-up-inner{
+                            h5{
+                                font: {
+                                    size: 18px;
+                                    weight: 600;
+                                }
+                                color: rgb(59, 59, 59);
+                            }
+                            p{
+                                font: {
+                                    size: 15px;
+                                    family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                                }
+                                color: rgb(170, 170, 170);
+                            }
+                            .sign-up-form-container{
+                                form.sign-up-form-inner{
+                                    label{
+                                        color: #313131;
+                                        margin: {
+                                            bottom:0;
+                                            left: 6px;
+                                        }
+                                        font: {
+                                            size:14px;
+                                            weight:700;
+                                        }
+                                    }
+                                    input[type=text],
+                                    input[type=email],
+                                    input[type=password]{
+                                        font: {
+                                            size:15px;
+                                        }
+                                        color: #444444;
+                                        border: {
+                                            width:1px;
+                                            color:#efefef;
+                                            style:solid;
+                                            radius:10px;
+                                        }
+                                        &:focus{
+                                            box-shadow: none;
+                                            border: {
+                                                color:#b4b4b4;
+                                            }
+                                        }
+                                    }
+                                    input[type=text]{
+                                        &::placeholder{
+                                            color: #afafaf;
+                                            font: {
+                                                size:14px;
+                                                family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                                            }
+                                        }
+                                    }
+                                    .form-check{
+                                        label{
+                                            span{
+                                                color: #7617f1;
+                                            }
+                                        }
+                                    }
+                                    button{
+                                        background-color: #5102b9;
+                                        color: #fff;
+                                        font: {
+                                            weight:700;
+                                        }
+                                        box-shadow: $shadow;
+                                        transition: $transition;
+                                        &:hover{
+                                            transform: scale(0.9);
+                                        }
+                                    }
+                                    .different-sign-method{
+                                        div{
+                                            button{
+                                                outline: none;
+                                                border: none;
+                                                background-color: transparent;
+                                                &:hover{
+                                                    box-shadow: $shadow;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .overly-form{
+                        top: 0;
+                        left: 0;
+                        // background-color: #5102b9;
+                        background: linear-gradient(to bottom, #070070, #300045);
+                        height: 100%;
+                        width: 50%;
+                        transition: $transition;
+                        p{
+                            font: {
+                                size:20px;
+                                weight:700;
+                            }
+                            color: #fff;
+                        }
+                        p.overly-head-text-2{
+                            display: none;
+                        }
+                        span{
+                            font: {
+                                size:15px;
+                            }
+                            color: #efefef;
+                        }
+                        span.overly-head-content-2{
+                            display: none;
+                        }
+                        .btn-overly-form{
+                            height: 60px;
+                            overflow: hidden;
+                            button{
+                                border: {
+                                    width:1px;
+                                    style:solid;
+                                    color:#fff;
+                                    radius:7px;
+                                }
+                                background-color: transparent;
+                                color: #fff;
+                                padding: 5px 55px;
+                                transition: $transition;
+                                &:hover{
+                                    background-color: #0929dd;
+                                    color: #fff;
+                                }
+                                &:focus{
+                                    outline: none;
+                                }
+                            }
+                        }
+                    }
+                    .sign-active{
+                        transform: translateX(100%);
+                        p.overly-head-text-1{
+                            display: none;
+                        }
+                        span.overly-head-content-1{
+                            display: none;
+                        }
+                        p.overly-head-text-2{
+                            display: block;
+                        }
+                        span.overly-head-content-2{
+                            display: block;
+                        }
+                        .btn-overly-form{
+                            .sign-btn-active{
+                                opacity: 0;
+                                transform: translateY(-100%);
+                            }
+                            .log-btn-active{
+                                opacity: 1;
+                                transform: translateY(-80px);
+                            }
+                        }
+                    }
+                    .log-active{
+                        transform: translateX(0);
+                        p.overly-head-text-1{
+                            display: block;
+                        }
+                        span.overly-head-content-1{
+                            display: block;
+                        }
+                        p.overly-head-text-2{
+                            display: none;
+                        }
+                        span.overly-head-content-2{
+                            display: none;
+                        }
+                        .btn-overly-form{
+                            .sign-btn-active{
+                                opacity: 1;
+                                transform: translateY(0);
+                            }
+                            .log-btn-active{
+                                opacity: 0;
+                                transform: translateY(0);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 576px){
+    .header-container{
+        .header-btn-container{
+            .custom-modal{
+                .modal-dialog{
+                    max-width: 1000px;
+                    margin: 1.9rem auto;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px){
+    .header-container{
+        .header-btn-container{
+            .custom-modal{
+                .modal-dialog{
+                    .modal-content{
+                        .overly-form{
+                            height: 54%!important;
+                            width: 100%!important;
+                        }
+                        .sign-active{
+                            transform: translateY(100%)!important;
+                        }
+                        .log-active{
+                            transform: translateY(0)!important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+div.navbar-container{
+    background-color: $bg-nav;
+    // box-shadow: $shadow;
+    nav{
+        a.navbar-brand{
+            transition: $transition;
+            &:hover{
+                transform: translateX(4px);
+            }
+        }
+        button.navbar-toggler{
+            border: 1px solid #efefef;
+            padding: $padding;
+            transition: $transition;
+            &:focus{
+                outline: none;
+                box-shadow: 0 0 8px rgba(0, 0, 0, 0.103);
+                border: 1px solid #d1d1d1;
+            }
+        }
+        div.navbar-collapse{
+            ul.custom-navbar-nav{
+                li{
+                    a{
+                        color: $link-color;
+                        padding-right: 12px;
+                        transition: $transition;
+                        position: relative;
+                        font: {
+                            size:$font-size;
+                        }
+                        &::before{
+                            content: '';
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 0;
+                            height: 2px;
+                            background-color: $link-hover-color;
+                            transition: $transition;
+                        }
+                        &:hover{
+                            color: $link-hover-color;
+                        }
+                        &:hover::before{
+                            width: 100%;
+                        }
+                    }
+                    div.custom-dropdown-menu{
+                        border: {
+                            width: 0;
+                            radius: $radius;
+                        }
+                        box-shadow: $shadow;
+                        padding: 15px 12px 15px 0px;
+                        a{
+                            padding: 6px 14px;
+                            color: #4d4d4d;
+                            img{
+                                transition: $transition;
+                            }
+                            &:hover{
+                                color: $link-hover-color;
+                                img{
+                                    transform: translateX(5px);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            form{
+                border: {
+                    width: 1px;
+                    style: solid;
+                    color: #efefef;
+                    radius:$radius;
+                }
+                overflow: hidden;
+                button{
+                    transition: $transition;
+                    &:hover{
+                        transform: translateY(-3px);
+                    }
+                    &:focus{
+                        box-shadow: none;
+                    }
+                }
+                button.btn-shopbag{
+                    border-left: 1px solid #efefef;
+                }
+                input{
+                    border: none;
+                    background-color: transparent;
+                    font-size: $font-size;
+                    color: #4d4d4d;
+                    &::placeholder{
+                        font-size: 14px;
+                        color: #afafaf;
+                    }
+                    &:focus{
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+    }
+}

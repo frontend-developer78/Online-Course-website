@@ -1,0 +1,320 @@
+header.header-container {
+  border-bottom: 1px dashed #efefef;
+}
+header.header-container .header-content p {
+  color: #5102b9;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+header.header-container .header-btn-container button.btn-log,
+header.header-container .header-btn-container button.btn-favorite {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #efefef;
+  border-radius: 8px;
+  outline: none;
+  background-color: transparent;
+  padding: 3px 6px;
+  font-size: 14px;
+  color: #747474;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+header.header-container .header-btn-container button.btn-log img,
+header.header-container .header-btn-container button.btn-favorite img {
+  transition: all 0.4s ease;
+}
+header.header-container .header-btn-container button.btn-log:hover,
+header.header-container .header-btn-container button.btn-favorite:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.11);
+}
+header.header-container .header-btn-container button.btn-log:hover img,
+header.header-container .header-btn-container button.btn-favorite:hover img {
+  transform: translateX(22px);
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content {
+  border-width: 0;
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 30px;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .sign-up-section .sign-up-inner h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(59, 59, 59);
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .sign-up-section .sign-up-inner p {
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: rgb(170, 170, 170);
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .sign-up-section .sign-up-inner .sign-up-form-container form.sign-up-form-inner label {
+  color: #313131;
+  margin-bottom: 0;
+  margin-left: 6px;
+  font-size: 14px;
+  font-weight: 700;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .sign-up-section .sign-up-inner .sign-up-form-container form.sign-up-form-inner input[type=text],
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .sign-up-section .sign-up-inner .sign-up-form-container form.sign-up-form-inner input[type=email],
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .sign-up-section .sign-up-inner .sign-up-form-container form.sign-up-form-inner input[type=password] {
+  font-size: 15px;
+  color: #444444;
+  border-width: 1px;
+  border-color: #efefef;
+  border-style: solid;
+  border-radius: 10px;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .sign-up-section .sign-up-inner .sign-up-form-container form.sign-up-form-inner input[type=text]:focus,
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .sign-up-section .sign-up-inner .sign-up-form-container form.sign-up-form-inner input[type=email]:focus,
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .sign-up-section .sign-up-inner .sign-up-form-container form.sign-up-form-inner input[type=password]:focus {
+  box-shadow: none;
+  border-color: #b4b4b4;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .sign-up-section .sign-up-inner .sign-up-form-container form.sign-up-form-inner input[type=text]::-moz-placeholder {
+  color: #afafaf;
+  font-size: 14px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .sign-up-section .sign-up-inner .sign-up-form-container form.sign-up-form-inner input[type=text]:-ms-input-placeholder {
+  color: #afafaf;
+  font-size: 14px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .sign-up-section .sign-up-inner .sign-up-form-container form.sign-up-form-inner input[type=text]::placeholder {
+  color: #afafaf;
+  font-size: 14px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .sign-up-section .sign-up-inner .sign-up-form-container form.sign-up-form-inner .form-check label span {
+  color: #7617f1;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .sign-up-section .sign-up-inner .sign-up-form-container form.sign-up-form-inner button {
+  background-color: #5102b9;
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.11);
+  transition: all 0.4s ease;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .sign-up-section .sign-up-inner .sign-up-form-container form.sign-up-form-inner button:hover {
+  transform: scale(0.9);
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .sign-up-section .sign-up-inner .sign-up-form-container form.sign-up-form-inner .different-sign-method div button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .sign-up-section .sign-up-inner .sign-up-form-container form.sign-up-form-inner .different-sign-method div button:hover {
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.11);
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .overly-form {
+  top: 0;
+  left: 0;
+  background: linear-gradient(to bottom, #070070, #300045);
+  height: 100%;
+  width: 50%;
+  transition: all 0.4s ease;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .overly-form p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .overly-form p.overly-head-text-2 {
+  display: none;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .overly-form span {
+  font-size: 15px;
+  color: #efefef;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .overly-form span.overly-head-content-2 {
+  display: none;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .overly-form .btn-overly-form {
+  height: 60px;
+  overflow: hidden;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .overly-form .btn-overly-form button {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #fff;
+  border-radius: 7px;
+  background-color: transparent;
+  color: #fff;
+  padding: 5px 55px;
+  transition: all 0.4s ease;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .overly-form .btn-overly-form button:hover {
+  background-color: #0929dd;
+  color: #fff;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .overly-form .btn-overly-form button:focus {
+  outline: none;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .sign-active {
+  transform: translateX(100%);
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .sign-active p.overly-head-text-1 {
+  display: none;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .sign-active span.overly-head-content-1 {
+  display: none;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .sign-active p.overly-head-text-2 {
+  display: block;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .sign-active span.overly-head-content-2 {
+  display: block;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .sign-active .btn-overly-form .sign-btn-active {
+  opacity: 0;
+  transform: translateY(-100%);
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .sign-active .btn-overly-form .log-btn-active {
+  opacity: 1;
+  transform: translateY(-80px);
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .log-active {
+  transform: translateX(0);
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .log-active p.overly-head-text-1 {
+  display: block;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .log-active span.overly-head-content-1 {
+  display: block;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .log-active p.overly-head-text-2 {
+  display: none;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .log-active span.overly-head-content-2 {
+  display: none;
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .log-active .btn-overly-form .sign-btn-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+header.header-container .header-btn-container .custom-modal .modal-dialog .modal-content .log-active .btn-overly-form .log-btn-active {
+  opacity: 0;
+  transform: translateY(0);
+}
+
+@media (min-width: 576px) {
+  .header-container .header-btn-container .custom-modal .modal-dialog {
+    max-width: 1000px;
+    margin: 1.9rem auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header-container .header-btn-container .custom-modal .modal-dialog .modal-content .overly-form {
+    height: 54% !important;
+    width: 100% !important;
+  }
+  .header-container .header-btn-container .custom-modal .modal-dialog .modal-content .sign-active {
+    transform: translateY(100%) !important;
+  }
+  .header-container .header-btn-container .custom-modal .modal-dialog .modal-content .log-active {
+    transform: translateY(0) !important;
+  }
+}
+div.navbar-container {
+  background-color: #fff;
+}
+div.navbar-container nav a.navbar-brand {
+  transition: all 0.4s ease;
+}
+div.navbar-container nav a.navbar-brand:hover {
+  transform: translateX(4px);
+}
+div.navbar-container nav button.navbar-toggler {
+  border: 1px solid #efefef;
+  padding: 8px;
+  transition: all 0.4s ease;
+}
+div.navbar-container nav button.navbar-toggler:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.103);
+  border: 1px solid #d1d1d1;
+}
+div.navbar-container nav div.navbar-collapse ul.custom-navbar-nav li a {
+  color: #5f5f5f;
+  padding-right: 12px;
+  transition: all 0.4s ease;
+  position: relative;
+  font-size: 14px;
+}
+div.navbar-container nav div.navbar-collapse ul.custom-navbar-nav li a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(255, 59, 59);
+  transition: all 0.4s ease;
+}
+div.navbar-container nav div.navbar-collapse ul.custom-navbar-nav li a:hover {
+  color: rgb(255, 59, 59);
+}
+div.navbar-container nav div.navbar-collapse ul.custom-navbar-nav li a:hover::before {
+  width: 100%;
+}
+div.navbar-container nav div.navbar-collapse ul.custom-navbar-nav li div.custom-dropdown-menu {
+  border-width: 0;
+  border-radius: 15px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.11);
+  padding: 15px 12px 15px 0px;
+}
+div.navbar-container nav div.navbar-collapse ul.custom-navbar-nav li div.custom-dropdown-menu a {
+  padding: 6px 14px;
+  color: #4d4d4d;
+}
+div.navbar-container nav div.navbar-collapse ul.custom-navbar-nav li div.custom-dropdown-menu a img {
+  transition: all 0.4s ease;
+}
+div.navbar-container nav div.navbar-collapse ul.custom-navbar-nav li div.custom-dropdown-menu a:hover {
+  color: rgb(255, 59, 59);
+}
+div.navbar-container nav div.navbar-collapse ul.custom-navbar-nav li div.custom-dropdown-menu a:hover img {
+  transform: translateX(5px);
+}
+div.navbar-container nav div.navbar-collapse form {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #efefef;
+  border-radius: 15px;
+  overflow: hidden;
+}
+div.navbar-container nav div.navbar-collapse form button {
+  transition: all 0.4s ease;
+}
+div.navbar-container nav div.navbar-collapse form button:hover {
+  transform: translateY(-3px);
+}
+div.navbar-container nav div.navbar-collapse form button:focus {
+  box-shadow: none;
+}
+div.navbar-container nav div.navbar-collapse form button.btn-shopbag {
+  border-left: 1px solid #efefef;
+}
+div.navbar-container nav div.navbar-collapse form input {
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  color: #4d4d4d;
+}
+div.navbar-container nav div.navbar-collapse form input::-moz-placeholder {
+  font-size: 14px;
+  color: #afafaf;
+}
+div.navbar-container nav div.navbar-collapse form input:-ms-input-placeholder {
+  font-size: 14px;
+  color: #afafaf;
+}
+div.navbar-container nav div.navbar-collapse form input::placeholder {
+  font-size: 14px;
+  color: #afafaf;
+}
+div.navbar-container nav div.navbar-collapse form input:focus {
+  box-shadow: none;
+}/*# sourceMappingURL=navbar.css.map */
